@@ -17,7 +17,7 @@
 
 ### [Project page](https://HilaManor.github.io/AudioEditing) | [Arxiv](https://arxiv.org/abs/2402.10009) | [Text-Based Space](https://huggingface.co/spaces/hilamanor/audioEditing)
 
-This repository contains the official code release for ***Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion***, along with a graphical user interface provided by Germanized.
+This repository contains the official code release for ***Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion (Germanized added audio+text-audio conversion without stable audio)***, along with a graphical user interface provided by Germanized.
 
 ### known bug/tweak (ITS NOT FROZEN)
 the progress in the terminal or gui wont show untill it is done or has encountered an error I have spent nights trying to figure this out to no avail but the app still works 
