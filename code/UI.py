@@ -212,7 +212,7 @@ class AudioEditorUI(QWidget):
         self.progressBar=QProgressBar(); self.progressBar.setValue(0); self.progressBar.setTextVisible(True); self.progressBar.setMinimumHeight(25); layout.addWidget(self.progressBar)
         self.deviceLabel=QLabel("Device: Unknown"); layout.addWidget(self.deviceLabel)
         self.processButton=QPushButton("Process Audio"); self.processButton.setMinimumHeight(35); self.processButton.clicked.connect(self.processAudio); self.processButton.setEnabled(False); layout.addWidget(self.processButton)
-        self.statusLabel=QLabel("Status: Waiting for input..."); self.statusLabel.setWordWrap(True); self.statusLabel.setTextInteractionFlags(Qt.TextInteractionFlag.TextSelectableByMouse|Qt.TextInteractionFlag.TextSelectableByKeyboard); self.statusLabel.setStyleSheet("padding-top: 5px; border: 1px solid 
+        self.statusLabel=QLabel("Status: Waiting for input..."); self.statusLabel.setWordWrap(True); self.statusLabel.setTextInteractionFlags(Qt.TextInteractionFlag.TextSelectableByMouse|Qt.TextInteractionFlag.TextSelectableByKeyboard); self.statusLabel.setStyleSheet("padding-top: 5px; border: 1px solid")
         self.setLayout(layout)
 
     
