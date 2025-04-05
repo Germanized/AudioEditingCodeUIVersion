@@ -19,6 +19,9 @@
 
 This repository contains the official code release for ***Zero-Shot Unsupervised and Text-Based Audio Editing Using DDPM Inversion***, along with a graphical user interface provided by Germanized.
 
+### known bug/tweak 
+the progress in the terminal or gui wont show untill it is done or has encountered an error i have spent nights trying to figure this out to no avail but the app still works 
+
 <!-- omit in toc -->
 ## Table of Contents
 
